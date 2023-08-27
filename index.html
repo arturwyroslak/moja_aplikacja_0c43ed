@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Designer Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Welcome to my Creative World</h1>
+    <p>I'm a graphic designer specialized in creating unique and eye-catching designs</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius magna malesuada, euismod est ac, accumsan mi. Praesent feugiat nunc et Vulputate, iaculis libero ac, interdum nisl. Nullam luctus felis sed felis vulputate, nec lacinia nisi condimentum.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="content">
+      <h2>Portfolio</h2>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="image1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="image2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="image3.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="content">
+      <h2>Services</h2>
+      <div class="service">
+        <img src="icon1.png" alt="Service 1">
+        <h3>Logo Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida felis a consectetur congue.</p>
+      </div>
+      <div class="service">
+        <img src="icon2.png" alt="Service 2">
+        <h3>Branding</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida felis a consectetur congue.</p>
+      </div>
+      <div class="service">
+        <img src="icon3.png" alt="Service 3">
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida felis a consectetur congue.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Me</h2>
+      <form action="submit-form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2021 Graphic Designer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
